@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Outer Ring -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M50,50m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M50,50m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+    <!-- Calculator/Chart Icon in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,35h30v30h-30z M40,40h5v5h-5z M50,40h10v5h-10z M40,50h5v5h-5z M50,50h10v5h-10z M40,60h20v2h-20z" />
+    <!-- Measuring Tape (Curved) -->
+    <path
+        android:strokeColor="#FFD600"
+        android:strokeWidth="4"
+        android:pathData="M25,75 Q50,85 75,75" />
+</vector>

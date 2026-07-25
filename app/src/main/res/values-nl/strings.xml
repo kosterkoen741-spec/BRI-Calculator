@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BRI Calculator</string>
+    <string name="nav_calculator">Calculator</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_settings">Instellingen</string>
+    <string name="nav_info">Info</string>
+
+    <string name="height_label">Lengte (cm)</string>
+    <string name="waist_label">Tailleomtrek (cm)</string>
+    <string name="calculate_btn">Bereken BRI</string>
+    <string name="result_label">Jouw BRI is: %.2f</string>
+    <string name="category_label">Categorie: %s</string>
+    <string name="cat_lean">Slank lichaam (laag lichaamsvet)</string>
+    <string name="cat_healthy">Gezonde marge</string>
+    <string name="cat_increased">Verhoogd lichaamsvet</string>
+    <string name="cat_high">Hoog gezondheidsrisico</string>
+
+    <string name="settings_theme">Thema</string>
+    <string name="theme_light">Licht</string>
+    <string name="theme_dark">Donker</string>
+    <string name="theme_system">Systeem</string>
+    <string name="settings_language">Taal</string>
+    <string name="cancel">Annuleren</string>
+
+    <string name="help_title">Wat is de BRI Calculator</string>
+    <string name="help_intro">De BRI Calculator helpt u snel te begrijpen of uw lichaamsvorm binnen een gezonde marge valt. BRI (Body Roundness Index) is een geavanceerde methode die zich richt op lichaamsvorm en vetverdeling, waardoor het meer inzicht biedt dan de traditionele BMI.\n\nDe BRI is een numerieke waarde die het lichaamsvet en de lichaamsvorm schat op basis van uw lengte en middelomtrek. Het richt zich specifiek op buikvet, wat sterk gekoppeld is aan gezondheidsrisico’s.</string>
+
+    <string name="help_calc_title">Hoe de BRI wordt berekend</string>
+    <string name="help_calc_text">De BRI wordt berekend op basis van uw lengte en middelomtrek (gemeten in meters).\n\nFormule:\nBRI = 364.2 − 365.5 × √(1 − (middelomtrek ÷ (π × lengte))²)</string>
+
+    <string name="help_example_title">Voorbeeld</string>
+    <string name="help_example_text">Als uw middelomtrek 85 cm (0,85 m) is en uw lengte is 1,75 m\n\nBereken eerst het deel binnen de formule:\n(0.85 ÷ (π × 1.75))² ≈ (0.85 ÷ 5.50)² ≈ (0.1545)² ≈ 0.0239\n\nVervolgens:\n√(1 − 0.0239) = √(0.9761) ≈ 0.988\nBRI = 364.2 − (365.5 × 0.988) ≈ 364.2 − 361.1 ≈ 3.1</string>
+
+    <string name="help_cats_title">BRI-categorieën</string>
+    <string name="help_cats_text">Uw BRI-waarde kan als volgt worden geïnterpreteerd:\n\n• Minder dan 3,4: Slank lichaam (laag lichaamsvet)\n• 3,5 – 5,4: Gezonde marge\n• 5,5 – 6,9: Verhoogd lichaamsvet\n• 7,0 en hoger: Hoog gezondheidsrisico</string>
+
+    <string name="help_why_title">Waarom wordt de BRI gebruikt</string>
+    <string name="help_why_text">De BRI geeft een betere indicatie van gezondheidsrisico’s die verband houden met buikvet. Vet rond de taille is sterk geassocieerd met aandoeningen zoals:\n\n• Hartaandoeningen\n• Diabetes type 2\n• Hoge bloeddruk\n\nHierdoor kan de BRI meer inzicht bieden in gezondheidsrisico’s dan de BMI alleen.</string>
+
+    <string name="help_limit_title">Beperkingen van de BRI</string>
+    <string name="help_limit_text">Hoewel de BRI geavanceerder is dan de BMI, heeft het nog steeds beperkingen. Het meet het lichaamsvet niet direct en houdt geen volledige rekening met:\n\n• Spiermassa\n• Botstructuur\n• Leeftijds- en geslachtsverschillen\n• Conditieniveau</string>
+
+    <string name="help_tips_title">Tips voor het interpreteren van uw BRI</string>
+    <string name="help_tips_text">• Gebruik de BRI as een richtlijn, niet als een medische diagnose.\n• Combineer het met andere gezondheidsindicatoren.\n• Raadpleeg een zorgprofessional voor een volledige evaluatie.</string>
+
+    <string name="help_summary">De BRI is een nuttig hulpmiddel om inzicht te krijgen in uw lichaamsvorm en potentiële gezondheidsrisico’s. Het moet echter altijd in de juiste context worden bekeken, aangezien uw algemene gezondheid van veel factoren afhangt.</string>
+
+    <string name="info_title">App Informatie</string>
+    <string name="info_version">Versie 1.0</string>
+    <string name="info_developer">Ontwikkeld door Koenraad Koster</string>
+</resources>

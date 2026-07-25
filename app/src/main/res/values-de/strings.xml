@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BRI Rechner</string>
+    <string name="nav_calculator">Rechner</string>
+    <string name="nav_help">Hilfe</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="nav_info">Info</string>
+
+    <string name="height_label">Größe (cm)</string>
+    <string name="waist_label">Taillenumfang (cm)</string>
+    <string name="calculate_btn">BRI Berechnen</string>
+    <string name="result_label">Ihr BRI ist: %.2f</string>
+    <string name="category_label">Kategorie: %s</string>
+    <string name="cat_lean">Schlanker Körper (geringer Körperfettanteil)</string>
+    <string name="cat_healthy">Gesunder Bereich</string>
+    <string name="cat_increased">Erhöhter Körperfettanteil</string>
+    <string name="cat_high">Hohes Gesundheitsrisiko</string>
+
+    <string name="settings_theme">Thema</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="theme_system">System</string>
+    <string name="settings_language">Sprache</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="help_title">Was ist der BRI-Rechner?</string>
+    <string name="help_intro">Der BRI-Rechner hilft Ihnen schnell zu verstehen, ob Ihre Körperform in einem gesunden Bereich liegt. Der BRI (Body Roundness Index) ist eine fortschrittliche Methode, die sich auf die Körperform und die Fettverteilung konzentriert und mehr Einblicke bietet als der traditionelle BMI.\n\nDer BRI ist ein numerischer Wert, der das Körperfett und die Körperform basierend auf Ihrer Größe und Ihrem Taillenumfang schätzt. Er zielt speziell auf das Bauchfett ab, das stark mit Gesundheitsrisiken verbunden ist.</string>
+
+    <string name="help_calc_title">Wie der BRI berechnet wird</string>
+    <string name="help_calc_text">Der BRI wird basierend auf Ihrer Größe und Ihrem Taillenumfang (gemessen in Metern) berechnet.\n\nFormel:\nBRI = 364.2 − 365.5 × √(1 − (Taillenumfang ÷ (π × Größe))²)</string>
+
+    <string name="help_example_title">Beispiel</string>
+    <string name="help_example_text">Wenn Ihr Taillenumfang 85 cm (0,85 m) und Ihre Größe 1,75 m beträgt\n\nBerechnen Sie zuerst den Teil innerhalb der Formel:\n(0.85 ÷ (π × 1.75))² ≈ (0.85 ÷ 5.50)² ≈ (0.1545)² ≈ 0.0239\n\nDann:\n√(1 − 0.0239) = √(0.9761) ≈ 0.988\nBRI = 364.2 − (365.5 × 0.988) ≈ 364.2 − 361.1 ≈ 3.1</string>
+
+    <string name="help_cats_title">BRI-Kategorien</string>
+    <string name="help_cats_text">Ihr BRI-Wert kann wie folgt interpretiert werden:\n\n• Weniger als 3,4: Schlanker Körper (geringer Körperfettanteil)\n• 3,5 – 5,4: Gesunder Bereich\n• 5,5 – 6,9: Erhöhter Körperfettanteil\n• 7,0 und höher: Hohes Gesundheitsrisiko</string>
+
+    <string name="help_why_title">Warum der BRI verwendet wird</string>
+    <string name="help_why_text">Der BRI gibt einen besseren Hinweis auf Gesundheitsrisiken im Zusammenhang mit Bauchfett. Fett um die Taille ist stark mit Erkrankungen verbunden wie:\n\n• Herzerkrankungen\n• Typ-2-Diabetes\n• Bluthochdruck\n\nDaher kann der BRI mehr Einblick in Gesundheitsrisiken bieten als der BMI allein.</string>
+
+    <string name="help_limit_title">Einschränkungen des BRI</string>
+    <string name="help_limit_text">Obwohl der BRI fortschrittlicher als der BMI ist, hat er immer noch Einschränkungen. Er misst das Körperfett nicht direkt und berücksichtigt nicht vollständig:\n\n• Muskelmasse\n• Knochenstruktur\n• Alters- und Geschlechtsunterschiede\n• Fitnesslevel</string>
+
+    <string name="help_tips_title">Tipps zur Interpretation Ihres BRI</string>
+    <string name="help_tips_text">• Verwenden Sie den BRI als Richtlinie, nicht als medizinische Diagnose.\n• Kombinieren Sie ihn mit anderen Gesundheitsindikatoren.\n• Konsultieren Sie einen Arzt für eine vollständige Bewertung.</string>
+
+    <string name="help_summary">Der BRI ist ein nützliches Werkzeug, um Einblick in Ihre Körperform und potenzielle Gesundheitsrisiken zu erhalten. Er sollte jedoch immer im richtigen Kontext betrachtet werden, da Ihre allgemeine Gesundheit von vielen Faktoren abhängt.</string>
+
+    <string name="info_title">App-Informationen</string>
+    <string name="info_version">Version 1.0</string>
+    <string name="info_developer">Entwickelt von Koenraad Koster</string>
+</resources>

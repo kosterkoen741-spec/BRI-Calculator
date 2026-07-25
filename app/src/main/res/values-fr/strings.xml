@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Calculateur BRI</string>
+    <string name="nav_calculator">Calculateur</string>
+    <string name="nav_help">Aide</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="nav_info">Info</string>
+
+    <string name="height_label">Taille (cm)</string>
+    <string name="waist_label">Tour de taille (cm)</string>
+    <string name="calculate_btn">Calculer le BRI</string>
+    <string name="result_label">Votre BRI est : %.2f</string>
+    <string name="category_label">Catégorie : %s</string>
+    <string name="cat_lean">Corps mince (faible taux de graisse corporelle)</string>
+    <string name="cat_healthy">Fourchette saine</string>
+    <string name="cat_increased">Augmentation de la graisse corporelle</string>
+    <string name="cat_high">Risque élevé pour la santé</string>
+
+    <string name="settings_theme">Thème</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_system">Système</string>
+    <string name="settings_language">Langue</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="help_title">Qu\'est-ce que le calculateur BRI ?</string>
+    <string name="help_intro">Le calculateur BRI vous aide à comprendre rapidement si votre silhouette se situe dans une fourchette saine. Le BRI (Body Roundness Index) est une méthode avancée qui se concentre sur la forme du corps et la répartition des graisses, offrant plus d\'informations que l\'IMC traditionnel.\n\nLe BRI est une valeur numérique qui estime la graisse corporelle et la forme du corps en fonction de votre taille et de votre tour de taille. Il cible spécifiquement la graisse abdominale, qui est fortement liée aux risques pour la santé.</string>
+
+    <string name="help_calc_title">Comment le BRI est calculé</string>
+    <string name="help_calc_text">Le BRI est calculé en fonction de votre taille et de votre tour de taille (mesurés en mètres).\n\nFormule :\nBRI = 364.2 − 365.5 × √(1 − (tour de taille ÷ (π × taille))²)</string>
+
+    <string name="help_example_title">Exemple</string>
+    <string name="help_example_text">Si votre tour de taille est de 85 cm (0,85 m) et votre taille de 1,75 m\n\nCalculez d\'abord la partie à l\'intérieur de la formule :\n(0.85 ÷ (π × 1.75))² ≈ (0.85 ÷ 5.50)² ≈ (0.1545)² ≈ 0.0239\n\nEnsuite :\n√(1 − 0.0239) = √(0.9761) ≈ 0.988\nBRI = 364.2 − (365.5 × 0.988) ≈ 364.2 − 361.1 ≈ 3.1</string>
+
+    <string name="help_cats_title">Catégories de BRI</string>
+    <string name="help_cats_text">Votre valeur BRI peut être interprétée comme suit :\n\n• Moins de 3,4 : Corps mince (faible taux de graisse corporelle)\n• 3,5 – 5,4 : Fourchette saine\n• 5,5 – 6,9 : Augmentation de la graisse corporelle\n• 7,0 et plus : Risque élevé pour la santé</string>
+
+    <string name="help_why_title">Pourquoi le BRI est utilisé</string>
+    <string name="help_why_text">Le BRI donne une meilleure indication des risques pour la santé liés à la graisse abdominale. La graisse autour de la taille est fortement associée à des conditions telles que :\n\n• Maladies cardiaques\n• Diabète de type 2\n• Hypertension artérielle\n\nPar conséquent, le BRI peut offrir plus d\'informations sur les risques pour la santé que l\'IMC seul.</string>
+
+    <string name="help_limit_title">Limites du BRI</string>
+    <string name="help_limit_text">Bien que le BRI soit plus avancé que l\'IMC, il présente toujours des limites. Il ne mesure pas directement la graisse corporelle et ne tient pas pleinement compte de :\n\n• La masse musculaire\n• La structure osseuse\n• Les différences d\'âge et de sexe\n• Le niveau de forme physique</string>
+
+    <string name="help_tips_title">Conseils pour interpréter votre BRI</string>
+    <string name="help_tips_text">• Utilisez le BRI comme une ligne directrice, pas comme un diagnostic médical.\n• Combinez-le avec d\'autres indicateurs de santé.\n• Consultez un professionnel de la santé pour une évaluation complète.</string>
+
+    <string name="help_summary">Le BRI est un outil utile pour mieux comprendre votre silhouette et les risques potentiels pour votre santé. Cependant, il doit toujours être considéré dans son contexte, car votre santé globale dépend de nombreux facteurs.</string>
+
+    <string name="info_title">Informations sur l\'application</string>
+    <string name="info_version">Version 1.0</string>
+    <string name="info_developer">Développé par Koenraad Koster</string>
+</resources>

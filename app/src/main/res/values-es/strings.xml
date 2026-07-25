@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Calculadora BRI</string>
+    <string name="nav_calculator">Calculadora</string>
+    <string name="nav_help">Ayuda</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_info">Info</string>
+
+    <string name="height_label">Altura (cm)</string>
+    <string name="waist_label">Circunferencia de cintura (cm)</string>
+    <string name="calculate_btn">Calcular BRI</string>
+    <string name="result_label">Su BRI es: %.2f</string>
+    <string name="category_label">Categoría: %s</string>
+    <string name="cat_lean">Cuerpo delgado (poca grasa corporal)</string>
+    <string name="cat_healthy">Rango saludable</string>
+    <string name="cat_increased">Aumento de la grasa corporal</string>
+    <string name="cat_high">Alto riesgo para la salud</string>
+
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_system">Sistema</string>
+    <string name="settings_language">Idioma</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="help_title">¿Qué es la calculadora BRI?</string>
+    <string name="help_intro">La calculadora BRI le ayuda a comprender rápidamente si la forma de su cuerpo se encuentra dentro de un rango saludable. El BRI (Body Roundness Index) es un método avanzado que se centra en la forma del cuerpo y la distribución de la grasa, proporcionando más información que el IMC tradicional.\n\nEl BRI es un valor numérico que estima la grasa corporal y la forma del cuerpo en función de su altura y circunferencia de la cintura. Se dirige específicamente a la grasa abdominal, que está fuertemente vinculada a riesgos para la salud.</string>
+
+    <string name="help_calc_title">Cómo se calcula el BRI</string>
+    <string name="help_calc_text">El BRI se calcula en función de su altura y circunferencia de la cintura (medidas en metros).\n\nFórmula:\nBRI = 364.2 − 365.5 × √(1 − (cintura ÷ (π × altura))²)</string>
+
+    <string name="help_example_title">Ejemplo</string>
+    <string name="help_example_text">Si su circunferencia de cintura es de 85 cm (0,85 m) y su altura es de 1,75 m\n\nPrimero calcule la parte dentro de la fórmula:\n(0.85 ÷ (π × 1.75))² ≈ (0.85 ÷ 5.50)² ≈ (0.1545)² ≈ 0.0239\n\nEntonces:\n√(1 − 0.0239) = √(0.9761) ≈ 0.988\nBRI = 364.2 − (365.5 × 0.988) ≈ 364.2 − 361.1 ≈ 3.1</string>
+
+    <string name="help_cats_title">Categorías de BRI</string>
+    <string name="help_cats_text">Su valor de BRI se puede interpretar de la siguiente manera:\n\n• Menos de 3,4: Cuerpo delgado (poca grasa corporal)\n• 3,5 – 5,4: Rango saludable\n• 5,5 – 6,9: Aumento de la grasa corporal\n• 7,0 y superior: Alto riesgo para la salud</string>
+
+    <string name="help_why_title">Por qué se utiliza el BRI</string>
+    <string name="help_why_text">El BRI da una mejor indicación de los riesgos para la salud relacionados con la grasa abdominal. La grasa alrededor de la cintura está fuertemente asociada con condiciones como:\n\n• Enfermedades cardíacas\n• Diabetes tipo 2\n• Presión arterial alta\n\n Por lo tanto, el BRI puede ofrecer más información sobre los riesgos para la salud que el IMC solo.</string>
+
+    <string name="help_limit_title">Limitaciones del BRI</string>
+    <string name="help_limit_text">Aunque el BRI es más avanzado que el IMC, todavía tiene limitaciones. No mide la grasa corporal directamente y no tiene en cuenta plenamente:\n\n• Masa muscular\n• Estructura ósea\n• Diferencias de edad y género\n• Nivel de condición física</string>
+
+    <string name="help_tips_title">Consejos para interpretar su BRI</string>
+    <string name="help_tips_text">• Utilice el BRI como una guía, no como un diagnóstico médico.\n• Combínelo con otros indicadores de salud.\n• Consulte con un profesional de la salud para una evaluación completa.</string>
+
+    <string name="help_summary">El BRI es una herramienta útil para obtener información sobre la forma de su cuerpo y los posibles riesgos para la salud. Sin embargo, siempre debe verse en el contexto adecuado, ya que su salud general depende de muchos factores.</string>
+
+    <string name="info_title">Información de la aplicación</string>
+    <string name="info_version">Versión 1.0</string>
+    <string name="info_developer">Desarrollado por Koenraad Koster</string>
+</resources>
