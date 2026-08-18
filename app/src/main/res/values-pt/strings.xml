@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Calculadora BRI</string>
+    <string name="nav_calculator">Calculadora</string>
+    <string name="nav_help">Ajuda</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_info">Informações</string>
+
+    <string name="height_label">Altura (cm)</string>
+    <string name="waist_label">Circunferência da cintura (cm)</string>
+    <string name="calculate_btn">Calcular BRI</string>
+    <string name="result_label">Seu BRI é: %.2f</string>
+    <string name="category_label">Categoria: %s</string>
+    <string name="cat_lean">Corpo magro (baixa gordura corporal)</string>
+    <string name="cat_healthy">Faixa saudável</string>
+    <string name="cat_increased">Aumento da gordura corporal</string>
+    <string name="cat_high">Alto risco para a saúde</string>
+
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="theme_system">Sistema</string>
+    <string name="settings_language">Idioma</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="help_title">O que é a Calculadora BRI?</string>
+    <string name="help_intro">A Calculadora BRI ajuda você a entender rapidamente se o seu formato corporal está dentro de uma faixa saudável. O BRI (Índice de Redondeza Corporal) é um método avançado que se concentra no formato do corpo e na distribuição de gordura, fornecendo mais informações do que o IMC tradicional.\n\nO BRI é um valor numérico que estima a gordura e o formato corporal com base na sua altura e na circunferência da cintura. Ele visa especificamente a gordura abdominal, que está fortemente ligada a riscos de saúde.</string>
+
+    <string name="help_calc_title">Como o BRI é calculado</string>
+    <string name="help_calc_text">O BRI é calculado com base na sua altura e na circunferência da cintura (medida em metros).\n\nFórmula:\nBRI = 364.2 − 365.5 × √(1 − (cintura ÷ (π × altura))²)</string>
+
+    <string name="help_example_title">Exemplo</string>
+    <string name="help_example_text">Se a circunferência da sua cintura for 85 cm (0,85 m) e a sua altura for 1,75 m\n\nPrimeiro calcule a parte dentro da fórmula:\n(0,85 ÷ (π × 1,75))² ≈ (0,85 ÷ 5,50)² ≈ (0,1545)² ≈ 0,0239\n\nEntão:\n√(1 − 0,0239) = √(0,9761) ≈ 0,988\nBRI = 364,2 − (365,5 × 0,988) ≈ 364,2 − 361,1 ≈ 3,1</string>
+
+    <string name="help_cats_title">Categorias de BRI</string>
+    <string name="help_cats_text">Seu valor de BRI pode ser interpretado da seguinte forma:\n\n• Menor que 3,4: Corpo magro (baixa gordura corporal)\n• 3,5 – 5,4: Faixa saudável\n• 5,5 – 6,9: Aumento da gordura corporal\n• 7,0 e superior: Alto risco para a saúde</string>
+
+    <string name="help_why_title">Por que o BRI é usado</string>
+    <string name="help_why_text">O BRI fornece uma indicação melhor dos riscos à saúde relacionados à gordura abdominal. A gordura ao redor da cintura está fortemente associada a condições como:\n\n• Doença cardíaca\n• Diabetes tipo 2\n• Pressão alta\n\nPortanto, o BRI pode oferecer mais informações sobre os riscos à saúde do que apenas o IMC.</string>
+
+    <string name="help_limit_title">Limitações do BRI</string>
+    <string name="help_limit_text">Embora o BRI seja mais avançado que o IMC, ele ainda tem limitações. Ele não mede a gordura corporal diretamente e não leva totalmente em conta:\n\n• Massa muscular\n• Estrutura óssea\n• Diferenças de idade e gênero\n• Nível de condicionamento físico</string>
+
+    <string name="help_tips_title">Dicas para interpretar seu BRI</string>
+    <string name="help_tips_text">• Use o BRI como uma orientação, não como um diagnóstico médico.\n• Combine-o com outros indicadores de saúde.\n• Consulte um profissional de saúde para uma avaliação completa.</string>
+
+    <string name="help_summary">O BRI é uma ferramenta útil para obter informações sobre o formato do seu corpo e possíveis riscos à saúde. No entanto, deve ser sempre visto no contexto adequado, pois a sua saúde geral depende de muitos fatores.</string>
+
+    <string name="info_title">Informações do Aplicativo</string>
+    <string name="info_version">Versão 1.1</string>
+    <string name="info_developer">Desenvolvido por Koenraad Koster</string>
+</resources>

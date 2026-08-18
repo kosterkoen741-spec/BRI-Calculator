@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Kalkulator BRI</string>
+    <string name="nav_calculator">Kalkulator</string>
+    <string name="nav_help">Bantuan</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="nav_info">Info</string>
+
+    <string name="height_label">Tinggi Badan (cm)</string>
+    <string name="waist_label">Lingkar Pinggang (cm)</string>
+    <string name="calculate_btn">Hitung BRI</string>
+    <string name="result_label">BRI Anda adalah: %.2f</string>
+    <string name="category_label">Kategori: %s</string>
+    <string name="cat_lean">Tubuh ramping (lemak tubuh rendah)</string>
+    <string name="cat_healthy">Rentang sehat</string>
+    <string name="cat_increased">Lemak tubuh meningkat</string>
+    <string name="cat_high">Risiko kesehatan tinggi</string>
+
+    <string name="settings_theme">Tema</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_system">Sistem</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="cancel">Batal</string>
+
+    <string name="help_title">Apa itu Kalkulator BRI?</string>
+    <string name="help_intro">Kalkulator BRI membantu Anda memahami dengan cepat apakah bentuk tubuh Anda berada dalam rentang yang sehat. BRI (Body Roundness Index) adalah metode canggih yang berfokus pada bentuk tubuh dan distribusi lemak, memberikan wawasan lebih dari sekadar BMI tradisional.\n\nBRI adalah nilai numerik yang memperkirakan lemak tubuh dan bentuk tubuh berdasarkan tinggi badan dan lingkar pinggang Anda. Ini secara khusus menargetkan lemak perut, yang sangat terkait dengan risiko kesehatan.</string>
+
+    <string name="help_calc_title">Bagaimana BRI Dihitung</string>
+    <string name="help_calc_text">BRI dihitung berdasarkan tinggi badan dan lingkar pinggang Anda (diukur dalam meter).\n\nRumus:\nBRI = 364.2 − 365.5 × √(1 − (pinggang ÷ (π × tinggi))²)</string>
+
+    <string name="help_example_title">Contoh</string>
+    <string name="help_example_text">Jika lingkar pinggang Anda 85 cm (0,85 m) dan tinggi badan Anda 1,75 m\n\nPertama hitung bagian di dalam rumus:\n(0,85 ÷ (π × 1,75))² ≈ (0,85 ÷ 5,50)² ≈ (0,1545)² ≈ 0,0239\n\nKemudian:\n√(1 − 0,0239) = √(0,9761) ≈ 0,988\nBRI = 364,2 − (365,5 × 0,988) ≈ 364,2 − 361,1 ≈ 3,1</string>
+
+    <string name="help_cats_title">Kategori BRI</string>
+    <string name="help_cats_text">Nilai BRI Anda dapat diartikan sebagai berikut:\n\n• Kurang dari 3,4: Tubuh ramping (lemak tubuh rendah)\n• 3,5 – 5,4: Rentang sehat\n• 5,5 – 6,9: Lemak tubuh meningkat\n• 7,0 dan lebih tinggi: Risiko kesehatan tinggi</string>
+
+    <string name="help_why_title">Mengapa BRI Digunakan</string>
+    <string name="help_why_text">BRI memberikan indikasi yang lebih baik tentang risiko kesehatan yang berkaitan dengan lemak perut. Lemak di sekitar pinggang sangat terkait dengan kondisi seperti:\n\n• Penyakit jantung\n• Diabetes tipe 2\n• Tekanan darah tinggi\n\nOleh karena itu, BRI dapat menawarkan wawasan lebih lanjut tentang risiko kesehatan daripada BMI saja.</string>
+
+    <string name="help_limit_title">Batasan BRI</string>
+    <string name="help_limit_text">Meskipun BRI lebih canggih dari BMI, ia tetap memiliki batasan. Ia tidak mengukur lemak tubuh secara langsung dan tidak sepenuhnya memperhitungkan:\n\n• Massa otot\n• Struktur tulang\n• Perbedaan usia dan jenis kelamin\n• Tingkat kebugaran</string>
+
+    <string name="help_tips_title">Tips Menafsirkan BRI Anda</string>
+    <string name="help_tips_text">• Gunakan BRI sebagai pedoman, bukan sebagai diagnosis medis.\n• Gabungkan dengan indikator kesehatan lainnya.\n• Konsultasikan dengan profesional kesehatan untuk evaluasi lengkap.</string>
+
+    <string name="help_summary">BRI adalah alat yang berguna untuk mendapatkan wawasan tentang bentuk tubuh dan potensi risiko kesehatan Anda. Namun, ini harus selalu dilihat dalam konteks yang tepat, karena kesehatan Anda secara keseluruhan bergantung pada banyak faktor.</string>
+
+    <string name="info_title">Informasi Aplikasi</string>
+    <string name="info_version">Versi 1.1</string>
+    <string name="info_developer">Dikembangkan oleh Koenraad Koster</string>
+</resources>

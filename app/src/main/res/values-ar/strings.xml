@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">حاسبة BRI</string>
+    <string name="nav_calculator">الحاسبة</string>
+    <string name="nav_help">مساعدة</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_info">معلومات</string>
+
+    <string name="height_label">الطول (سم)</string>
+    <string name="waist_label">محيط الخصر (سم)</string>
+    <string name="calculate_btn">احسب BRI</string>
+    <string name="result_label">قيمة BRI الخاصة بك هي: %.2f</string>
+    <string name="category_label">الفئة: %s</string>
+    <string name="cat_lean">جسم نحيف (دهون منخفضة)</string>
+    <string name="cat_healthy">نطاق صحي</string>
+    <string name="cat_increased">دهون متزايدة</string>
+    <string name="cat_high">مخاطر صحية عالية</string>
+
+    <string name="settings_theme">المظهر</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_system">النظام</string>
+    <string name="settings_language">اللغة</string>
+    <string name="cancel">إلغاء</string>
+
+    <string name="help_title">ما هي حاسبة BRI؟</string>
+    <string name="help_intro">تساعدك حاسبة BRI على فهم ما إذا كان شكل جسمك يقع ضمن النطاق الصحي بسرعة. يعد BRI (مؤشر استدارة الجسم) طريقة متقدمة تركز على شكل الجسم وتوزيع الدهون، مما يوفر رؤية أكثر من مؤشر كتلة الجسم (BMI) التقليدي.\n\nإن BRI هو قيمة عددية تقدر دهون الجسم وشكل الجسم بناءً على طولك ومحيط خصرك. ويستهدف بشكل خاص دهون البطن، والتي ترتبط ارتباطاً وثيقاً بالمخاطر الصحية.</string>
+
+    <string name="help_calc_title">كيف يتم حساب BRI</string>
+    <string name="help_calc_text">يتم حساب BRI بناءً على طولك ومحيط خصرك (بالأمتار).\n\nالمعادلة:\nBRI = 364.2 − 365.5 × √(1 − (الخصر ÷ (π × الطول))²)</string>
+
+    <string name="help_example_title">مثال</string>
+    <string name="help_example_text">إذا كان محيط خصرك 85 سم (0.85 م) وطولك 1.75 م\n\nأولاً احسب الجزء الموجود داخل المعادلة:\n(0.85 ÷ (π × 1.75))² ≈ (0.85 ÷ 5.50)² ≈ (0.1545)² ≈ 0.0239\n\nثم:\n√(1 − 0.0239) = √(0.9761) ≈ 0.988\nBRI = 364.2 − (365.5 × 0.988) ≈ 364.2 − 361.1 ≈ 3.1</string>
+
+    <string name="help_cats_title">فئات BRI</string>
+    <string name="help_cats_text">يمكن تفسير قيمة BRI الخاصة بك على النحو التالي:\n\n• أقل من 3.4: جسم نحيف (دهون منخفضة)\n• 3.5 – 5.4: نطاق صحي\n• 5.5 – 6.9: دهون متزايدة\n• 7.0 وأعلى: مخاطر صحية عالية</string>
+
+    <string name="help_why_title">لماذا يتم استخدام BRI</string>
+    <string name="help_why_text">يعطي BRI مؤشراً أفضل للمخاطر الصحية المتعلقة بدهون البطن. ترتبط الدهون حول الخصر ارتباطاً وثيقاً بحالات مثل:\n\n• أمراض القلب\n• داء السكري من النوع 2\n• ارتفاع ضغط الدم\n\nلذلك، يمكن أن يوفر BRI رؤية حول المخاطر الصحية أكثر من مؤشر كتلة الجسم وحده.</string>
+
+    <string name="help_limit_title">حدود BRI</string>
+    <string name="help_limit_text">على الرغم من أن BRI أكثر تقدماً من مؤشر كتلة الجسم، إلا أنه لا يزال لديه حدود. فهو لا يقيس دهون الجسم بشكل مباشر ولا يأخذ في الاعتبار بشكل كامل:\n\n• الكتلة العضلية\n• بنية العظام\n• الاختلافات في العمر والجنس\n• مستوى اللياقة البدنية</string>
+
+    <string name="help_tips_title">نصائح لتفسير قيمة BRI الخاصة بك</string>
+    <string name="help_tips_text">• استخدم BRI كدليل وليس كتشخيص طبي.\n• ادمجه مع مؤشرات صحية أخرى.\n• استشر أخصائي رعاية صحية لإجراء تقييم كامل.</string>
+
+    <string name="help_summary">يعد BRI أداة مفيدة للحصول على نظرة ثاقبة لشكل جسمك والمخاطر الصحية المحتملة. ومع ذلك، يجب دائماً النظر إليه في السياق المناسب، حيث تعتمد صحتك العامة على عوامل كثيرة.</string>
+
+    <string name="info_title">معلومات التطبيق</string>
+    <string name="info_version">الإصدار 1.1</string>
+    <string name="info_developer">تم التطوير بواسطة Koenraad Koster</string>
+</resources>

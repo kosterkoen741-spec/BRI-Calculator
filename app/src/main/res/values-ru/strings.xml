@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Калькулятор BRI</string>
+    <string name="nav_calculator">Калькулятор</string>
+    <string name="nav_help">Помощь</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_info">Инфо</string>
+
+    <string name="height_label">Рост (см)</string>
+    <string name="waist_label">Обхват талии (см)</string>
+    <string name="calculate_btn">Рассчитать BRI</string>
+    <string name="result_label">Ваш BRI: %.2f</string>
+    <string name="category_label">Категория: %s</string>
+    <string name="cat_lean">Стройное тело (низкий процент жира)</string>
+    <string name="cat_healthy">Здоровый диапазон</string>
+    <string name="cat_increased">Повышенный процент жира</string>
+    <string name="cat_high">Высокий риск для здоровья</string>
+
+    <string name="settings_theme">Тема</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Темная</string>
+    <string name="theme_system">Системная</string>
+    <string name="settings_language">Язык</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="help_title">Что такое калькулятор BRI?</string>
+    <string name="help_intro">Калькулятор BRI помогает быстро понять, находится ли ваша фигура в здоровом диапазоне. BRI (Body Roundness Index — индекс округлости тела) — это современный метод, который фокусируется на форме тела и распределении жира, предоставляя больше информации, чем традиционный ИМТ (BMI).\n\nBRI — это числовое значение, которое оценивает содержание жира и форму тела на основе вашего роста и обхвата талии. Он специально нацелен на абдоминальный жир, который тесно связан с рисками для здоровья.</string>
+
+    <string name="help_calc_title">Как рассчитывается BRI</string>
+    <string name="help_calc_text">BRI рассчитывается на основе вашего роста и обхвата талии (в метрах).\n\nФормула:\nBRI = 364.2 − 365.5 × √(1 − (талия ÷ (π × рост))²)</string>
+
+    <string name="help_example_title">Пример</string>
+    <string name="help_example_text">Если обхват вашей талии составляет 85 см (0,85 м), а рост — 1,75 м\n\nСначала вычислите часть внутри формулы:\n(0,85 ÷ (π × 1,75))² ≈ (0,85 ÷ 5,50)² ≈ (0,1545)² ≈ 0,0239\n\nЗатем:\n√(1 − 0,0239) = √(0,9761) ≈ 0,988\nBRI = 364,2 − (365,5 × 0,988) ≈ 364,2 − 361,1 ≈ 3,1</string>
+
+    <string name="help_cats_title">Категории BRI</string>
+    <string name="help_cats_text">Ваше значение BRI можно интерпретировать следующим образом:\n\n• Менее 3,4: Стройное тело (низкий процент жира)\n• 3,5 – 5,4: Здоровый диапазон\n• 5,5 – 6,9: Повышенный процент жира\n• 7,0 и выше: Высокий риск для здоровья</string>
+
+    <string name="help_why_title">Почему используется BRI</string>
+    <string name="help_why_text">BRI лучше указывает на риски для здоровья, связанные с абдоминальным жиром. Жир вокруг талии тесно связан с такими заболеваниями, как:\n\n• Сердечно-сосудистые заболевания\n• Диабет 2 типа\n• Высокое кровяное давление\n\nТаким образом, BRI может предложить больше информации о рисках для здоровья, чем один ИМТ.</string>
+
+    <string name="help_limit_title">Ограничения BRI</string>
+    <string name="help_limit_text">Хотя BRI более продвинут, чем ИМТ, у него все же есть ограничения. Он не измеряет жировые отложения напрямую и не полностью учитывает:\n\n• Мышечную массу\n• Структуру костей\n• Возрастные и гендерные различия\n• Уровень физической подготовки</string>
+
+    <string name="help_tips_title">Советы по интерпретации вашего BRI</string>
+    <string name="help_tips_text">• Используйте BRI как руководство, а не как медицинский диагноз.\n• Сочетайте его с другими показателями здоровья.\n• Проконсультируйтесь с врачом для полной оценки.</string>
+
+    <string name="help_summary">BRI — полезный инструмент для понимания формы вашего тела и потенциальных рисков для здоровья. Однако его всегда следует рассматривать в надлежащем контексте, так как ваше общее здоровье зависит от многих факторов.</string>
+
+    <string name="info_title">Информация о приложении</string>
+    <string name="info_version">Версия 1.1</string>
+    <string name="info_developer">Разработано Koenraad Koster</string>
+</resources>

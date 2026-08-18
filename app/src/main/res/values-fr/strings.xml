@@ -46,6 +46,6 @@
     <string name="help_summary">Le BRI est un outil utile pour mieux comprendre votre silhouette et les risques potentiels pour votre santé. Cependant, il doit toujours être considéré dans son contexte, car votre santé globale dépend de nombreux facteurs.</string>
 
     <string name="info_title">Informations sur l\'application</string>
-    <string name="info_version">Version 1.0</string>
+    <string name="info_version">Version 1.1</string>
     <string name="info_developer">Développé par Koenraad Koster</string>
 </resources>

@@ -46,6 +46,6 @@
     <string name="help_summary">El BRI es una herramienta útil para obtener información sobre la forma de su cuerpo y los posibles riesgos para la salud. Sin embargo, siempre debe verse en el contexto adecuado, ya que su salud general depende de muchos factores.</string>
 
     <string name="info_title">Información de la aplicación</string>
-    <string name="info_version">Versión 1.0</string>
+    <string name="info_version">Versión 1.1</string>
     <string name="info_developer">Desarrollado por Koenraad Koster</string>
 </resources>

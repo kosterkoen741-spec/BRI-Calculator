@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BRI कैलकुलेटर</string>
+    <string name="nav_calculator">कैलकुलेटर</string>
+    <string name="nav_help">मदद</string>
+    <string name="nav_settings">सेटिग्स</string>
+    <string name="nav_info">जानकारी</string>
+
+    <string name="height_label">लंबाई (सेमी)</string>
+    <string name="waist_label">कमर की परिधि (सेमी)</string>
+    <string name="calculate_btn">BRI की गणना करें</string>
+    <string name="result_label">आपका BRI है: %.2f</string>
+    <string name="category_label">श्रेणी: %s</string>
+    <string name="cat_lean">दुबला शरीर (कम शारीरिक वसा)</string>
+    <string name="cat_healthy">स्वस्थ सीमा</string>
+    <string name="cat_increased">बढ़ी हुई शारीरिक वसा</string>
+    <string name="cat_high">उच्च स्वास्थ्य जोखिम</string>
+
+    <string name="settings_theme">थीम</string>
+    <string name="theme_light">लाइट</string>
+    <string name="theme_dark">डार्क</string>
+    <string name="theme_system">सिस्टम</string>
+    <string name="settings_language">भाषा</string>
+    <string name="cancel">रद्द करें</string>
+
+    <string name="help_title">BRI कैलकुलेटर क्या है?</string>
+    <string name="help_intro">BRI कैलकुलेटर आपको यह समझने में मदद करता है कि क्या आपके शरीर का आकार स्वस्थ सीमा के भीतर है। BRI (बॉडी राउंडनेस इंडेक्स) एक उन्नत विधि है जो शरीर के आकार और वसा वितरण पर ध्यान केंद्रित करती है, जो पारंपरिक BMI की तुलना में अधिक जानकारी प्रदान करती है।\n\nBRI एक संख्यात्मक मान है जो आपकी लंबाई और कमर की परिधि के आधार पर शरीर की वसा और आकार का अनुमान लगाता है। यह विशेष रूप से पेट की वसा को लक्षित करता है, जो स्वास्थ्य जोखिमों से मजबूती से जुड़ा हुआ है।</string>
+
+    <string name="help_calc_title">BRI की गणना कैसे की जाती है</string>
+    <string name="help_calc_text">BRI की गणना आपकी लंबाई और कमर की परिधि (मीटर में मापी गई) के आधार पर की जाती है।\n\nसूत्र:\nBRI = 364.2 − 365.5 × √(1 − (कमर ÷ (π × लंबाई))²)</string>
+
+    <string name="help_example_title">उदाहरण</string>
+    <string name="help_example_text">यदि आपकी कमर की परिधि 85 सेमी (0.85 मीटर) है और आपकी लंबाई 1.75 मीटर है\n\nपहले सूत्र के अंदर वाले भाग की गणना करें:\n(0.85 ÷ (π × 1.75))² ≈ (0.85 ÷ 5.50)² ≈ (0.1545)² ≈ 0.0239\n\nफिर:\n√(1 − 0.0239) = √(0.9761) ≈ 0.988\nBRI = 364.2 − (365.5 × 0.988) ≈ 364.2 − 361.1 ≈ 3.1</string>
+
+    <string name="help_cats_title">BRI श्रेणियां</string>
+    <string name="help_cats_text">आपके BRI मान की व्याख्या इस प्रकार की जा सकती है:\n\n• 3.4 से कम: दुबला शरीर (कम शारीरिक वसा)\n• 3.5 – 5.4: स्वस्थ सीमा\n• 5.5 – 6.9: बढ़ी हुई शारीरिक वसा\n• 7.0 और अधिक: उच्च स्वास्थ्य जोखिम</string>
+
+    <string name="help_why_title">BRI का उपयोग क्यों किया जाता है</string>
+    <string name="help_why_text">BRI पेट की वसा से संबंधित स्वास्थ्य जोखिमों का बेहतर संकेत देता है। कमर के चारों ओर की वसा इन स्थितियों से मजबूती से जुड़ी हुई है:\n\n• हृदय रोग\n• टाइप 2 मधुमेह\n• उच्च रक्तचाप\n\nइसलिए, BRI अकेले BMI की तुलना में स्वास्थ्य जोखिमों के बारे में अधिक जानकारी दे सकता है।</string>
+
+    <string name="help_limit_title">BRI की सीमाएं</string>
+    <string name="help_limit_text">हालाँकि BRI, BMI की तुलना में अधिक उन्नत है, फिर भी इसकी सीमाएं हैं। यह सीधे शरीर की वसा को नहीं मापता है और पूरी तरह से इन पर विचार नहीं करता है:\n\n• मांसपेशियों का द्रव्यमान\n• हड्डियों की संरचना\n• आयु और लिंग अंतर\n• फिटनेस स्तर</string>
+
+    <string name="help_tips_title">आपके BRI की व्याख्या करने के लिए सुझाव</string>
+    <string name="help_tips_text">• BRI का उपयोग एक मार्गदर्शक के रूप में करें, चिकित्सा निदान के रूप में नहीं।\n• इसे अन्य स्वास्थ्य संकेतकों के साथ मिलाएं।\n• पूर्ण मूल्यांकन के लिए किसी स्वास्थ्य देखभाल पेशेवर से परामर्श लें।</string>
+
+    <string name="help_summary">BRI आपके शरीर के आकार और संभावित स्वास्थ्य जोखिमों के बारे में जानकारी प्राप्त करने के लिए एक उपयोगी उपकरण है। हालाँकि, इसे हमेशा उचित संदर्भ में देखा जाना चाहिए, क्योंकि आपका समग्र स्वास्थ्य कई कारकों पर निर्भर करता है।</string>
+
+    <string name="info_title">ऐप की जानकारी</string>
+    <string name="info_version">संस्करण 1.1</string>
+    <string name="info_developer">Koenraad Koster द्वारा विकसित</string>
+</resources>

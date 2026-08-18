@@ -27,7 +27,14 @@ fun SettingsScreen(
         "nl" to "Nederlands",
         "de" to "Deutsch",
         "fr" to "Français",
-        "es" to "Español"
+        "es" to "Español",
+        "pt" to "Português",
+        "in" to "Bahasa Indonesia",
+        "ar" to "العربية",
+        "ru" to "Русский",
+        "hi" to "हिन्दी",
+        "bn" to "বাংলা",
+        "zh" to "中文"
     )
     val currentLanguageLabel = languages.find { it.first == currentLanguage }?.second ?: "English"
 

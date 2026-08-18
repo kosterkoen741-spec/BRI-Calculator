@@ -46,6 +46,6 @@
     <string name="help_summary">BRI is a useful tool to gain insight into your body shape and potential health risks. However, it should always be viewed in the proper context, as your overall health depends on many factors.</string>
 
     <string name="info_title">App Information</string>
-    <string name="info_version">Version 1.0</string>
+    <string name="info_version">Version 1.1</string>
     <string name="info_developer">Developed by Koenraad Koster</string>
 </resources>
